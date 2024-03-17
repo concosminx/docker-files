@@ -1,7 +1,9 @@
-# Docker containers
+Examples:
 
 - [ansible-semaphore](ansiblesemaphore/README.md)
+- [authentik](authentik/README.md)
 - [bind9](bind9/README.md)
+- [caddy](caddy/README.md)
 - [cadvisor](cadvisor/README.md)
 - [Checkmk](checkmk/README.md)
 - [ctop](ctop/README.md)
@@ -9,16 +11,21 @@
 - [duplicati](duplicati/README.md)
 - [elk](elk/README.md)
 - [gitea](gitea/README.md)
+- [gotenberg](gotenberg/README.md)
 - [groovy](groovy/README.md)
 - [heimdall](heimdall/README.md)
+- [haproxy](haproxy/3-services/docker-compose.yml)
 - [homeassistant](homeassistant/README.md)
+- [homepage](homepage/docker-compose.yml)
 - [homer](homer/README.md)
+- [invoiceninja](invoiceninja/README.md)
 - [Jasper Server](jasper-server/README.md)
 - [jellyfin](jellyfin/README.md)
 - [jenkins](jenkins/README.md)
 - [kafka](kafka)
 - [Keycloak](keycloak/README.md)
 - [mongo-db](mongo/README.md)
+- [musicbrainz](musicbrainz/docker-compose.yml)
 - [navidrome](navidrome/README.md)
 - [netdata](netdata/README.md)
 - [nginx-nodejs-redis](nginx-nodejs-redis/compose.yaml)
@@ -40,7 +47,15 @@
 - [Tomcat](tomcat/README.md)
 - [Traefik](traefik/README.md)
 - [uptime-kuma](uptime-kuma/README.md)
+- [varnish](varnish/docker-compose.yml)
+- [vault](vault/README.md)
 - [Wordpress](wordpress/README.md)
+- [WriteFreely](write-freely/README.md)
 - [xwiki](xwiki/README.md)
+- [zitadel](zitadel/README.md)
 
 
+Cleanup:
+
+- containers `docker rm -f $(docker ps -q)`
+- images `docker rmi $(docker images -q)`
