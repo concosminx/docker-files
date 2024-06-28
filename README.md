@@ -22,22 +22,22 @@
 | [duplicati](duplicati/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/duplicati/)  | Backup Manager |
 | [elk](elk/README.md)  | [source](https://www.elastic.co/elastic-stack)  | ELK Stack - Elasticsearch, Kibana, Beats, and Logstash |
 | [gitea](gitea/README.md)  | [source](https://docs.gitea.io/en-us/install-with-docker/)  | Git Repository manager |
+| [glowroot](glowroot/README.md)  | [source](https://github.com/glowroot/glowroot/wiki)  | Open source Java APM |
+| [gotenberg](gotenberg/README.md)  | [source](https://gotenberg.dev/docs/configuration)  | Stateless API for PDF files |
+| [groovy](groovy/README.md)  | [source](https://hub.docker.com/_/groovy/)  | Apache Groovy |
+| [haproxy-3-services](haproxy/3-services/docker-compose.yml)  | [source](https://www.haproxy.org/)  | HAProxy example with LB and 3 services (Echo Server) |
+| [haproxy-python-services](haproxy/python-services/docker-compose.yml)  | [source](https://www.haproxy.org/)  | HAProxy example with LB and 3 services (Python) |
+| [heimdall](heimdall/docker-compose.yaml)  | [source](https://github.com/linuxserver/Heimdall)  | Application Dashboard |
+| [homeassistant](homeassistant/docker-compose.yaml)  | [source](https://www.home-assistant.io/)  | Home automation |
+| [homepage](homepage/docker-compose.yml)  | [source](https://github.com/gethomepage/homepage)  | Application Dashboard |
+| [homer](homer/docker-compose.yaml)  | [source](https://hub.docker.com/r/b4bz/homer)  | Application Dashboard |
+| [invoiceninja](invoiceninja/README.md)  | [source](https://invoiceninja.com/)  | Invoicing Software |
 
 
 # Container list (old)
 
 | Name  | Webpage |
 | ------------- | ------------- |
-| [glowroot](glowroot/README.md)  | [source](https://github.com/glowroot/glowroot/wiki)  |
-| [gotenberg](gotenberg/README.md)  | [source](https://gotenberg.dev/docs/configuration)  |
-| [groovy](groovy/README.md)  | [source](https://hub.docker.com/_/groovy/)  |
-| [haproxy-3-services](haproxy/3-services/docker-compose.yml)  | [source](https://www.haproxy.org/)  |
-| [haproxy-python-services](haproxy/python-services/docker-compose.yml)  | [source](https://www.haproxy.org/)  |
-| [heimdall](heimdall/docker-compose.yaml)  | [source](https://github.com/linuxserver/Heimdall)  |
-| [homeassistant](homeassistant/docker-compose.yaml)  | [source](https://www.home-assistant.io/)  |
-| [homepage](homepage/docker-compose.yml)  | [source](https://github.com/gethomepage/homepage)  |
-| [homer](homer/docker-compose.yaml)  | [source](https://hub.docker.com/r/b4bz/homer)  |
-| [invoiceninja](invoiceninja/README.md)  | [source](https://invoiceninja.com/)  |
 | ~~[Jasper Server](jasper-server/README.md)~~  | ~~[source](https://hub.docker.com/r/bitnami/jasperreports/)~~  |
 | [jellyfin](jellyfin/README.md)  | [source](https://jellyfin.org/)  |
 | [jenkins](jenkins/README.md)  | [source](https://www.jenkins.io/)  |
