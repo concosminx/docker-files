@@ -1,27 +1,33 @@
 # Docker containers
 
-## Setup Docker on Ubuntu
+### Setup Docker on Ubuntu
 - [read official docs](https://docs.docker.com/engine/install/ubuntu/) 
 
-## Cleanup Docker
+### Cleanup Docker
 - containers `docker rm -f $(docker ps -q)`
 - images `docker rmi $(docker images -q)`
 
 # Container list
 
+| Name  | Webpage | Description | 
+| ------------- | ------------- | ------------- |
+| [ansible-semaphore](ansiblesemaphore/docker-compose.yml)  | [source](https://www.ansible-semaphore.com/)  | Modern UI for Ansible |
+| [authentik](authentik/docker-compose.yml)  | [source](https://wiki.opensourceisawesome.com/books/authentik/page/install-and-setup-authentik)  | IdP (Identity Provider) and SSO (single sign on) |
+| [bind9](bind9/docker-compose.yml)  | [source](https://www.isc.org/bind/)  | DNS system |
+| [caddy](caddy/README.md)  | [source](https://caddyserver.com/docs/quick-starts/reverse-proxy)  |  Web server with automatic HTTPS |
+| [cadvisor](cadvisor/docker-compose.yaml)  | [source](https://github.com/google/cadvisor)  | Resource usage and performance characteristics of running containers |
+| [checkmk](checkmk/README.md)  | [source](https://checkmk.com/) | IT monitoring platform |
+| [ctop](ctop/README.md)  | [source](https://github.com/bcicen/ctop)  | Top-like interface for container metrics |
+| [draw.io](draw-io/README.md)  | [source](https://hub.docker.com/r/jgraph/drawio)  | Flowchart Maker and Online Diagram Software |
+| [duplicati](duplicati/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/duplicati/)  | Backup Manager |
+| [elk](elk/README.md)  | [source](https://www.elastic.co/elastic-stack)  | ELK Stack - Elasticsearch, Kibana, Beats, and Logstash |
+| [gitea](gitea/README.md)  | [source](https://docs.gitea.io/en-us/install-with-docker/)  | Git Repository manager |
+
+
+# Container list (old)
+
 | Name  | Webpage |
 | ------------- | ------------- |
-| [ansible-semaphore](ansiblesemaphore/docker-compose.yml)  | [source](https://www.ansible-semaphore.com/)  |
-| [authentik](authentik/docker-compose.yml)  | [source](https://wiki.opensourceisawesome.com/books/authentik/page/install-and-setup-authentik)  |
-| [bind9](bind9/docker-compose.yml)  | [source](https://www.isc.org/bind/)  |
-| [caddy](caddy/README.md)  | [source](https://caddyserver.com/docs/quick-starts/reverse-proxy)  |
-| [cadvisor](cadvisor/docker-compose.yaml)  | [source](https://github.com/google/cadvisor)  |
-| [checkmk](checkmk/README.md)  | [source](https://checkmk.com/)  |
-| [ctop](ctop/README.md)  | [source](https://github.com/bcicen/ctop)  |
-| [draw.io](draw-io/README.md)  | [source](https://hub.docker.com/r/jgraph/drawio)  |
-| [duplicati](duplicati/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/duplicati/)  |
-| [elk](elk/README.md)  | [source](https://www.elastic.co/elastic-stack)  |
-| [gitea](gitea/README.md)  | [source](https://docs.gitea.io/en-us/install-with-docker/)  |
 | [glowroot](glowroot/README.md)  | [source](https://github.com/glowroot/glowroot/wiki)  |
 | [gotenberg](gotenberg/README.md)  | [source](https://gotenberg.dev/docs/configuration)  |
 | [groovy](groovy/README.md)  | [source](https://hub.docker.com/_/groovy/)  |
