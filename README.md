@@ -51,7 +51,7 @@
 | [Oracle](oracle-versions/README.md)  | [source](https://github.com/diemobiliar/minimized-oraclexe-image)  | Oracle XE | 
 | [paperless](paperless/docker-compose.yml)  | [source](https://docs.paperless-ngx.com/)  | Document Management System |
 | [passbolt](passbolt/README.md)  | [source](https://www.passbolt.com/) | Open Source Password Manager |
-| [planka](planka/README.md)  | [source]([#](https://docs.planka.cloud/docs/installation/docker/production_version)) | Open Source Project Tracking |
+| [planka](planka/README.md)  | [source](https://docs.planka.cloud/docs/installation/docker/production_version) | Open Source Project Tracking |
 | [Portainer](portainer/README.md)  | [source](https://docs.portainer.io/start/install/server/docker/linux)  | Container Management |
 | [PostgreSQL](postgresql/README.md)  | [source](https://hub.docker.com/_/postgres)  | Database |
 | [PostgreSQL with pgadmin](postgresql-pgadmin/README.md)  | [source](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html)  | Database & Tools |
@@ -62,7 +62,7 @@
 | [SonarQUBE](sonar-qube/README.md)  | [source](https://www.sonarsource.com/products/sonarqube/)  | Static Code Analysis |
 | [spring-and-postgresql](spring-postgresql/README.md)  | ~~[source](#)~~  | SpringBoot and PostgreSQL Example |
 | [swag](swag/docker-compose.yaml)  | [source](https://docs.linuxserver.io/general/swag#swag)  | Web Server |
-| [taiga](taiga/README.md)  | [source]([#](https://github.com/docker-taiga/taiga)) | Project Management |
+| [taiga](taiga/README.md)  | [source](https://github.com/docker-taiga/taiga) | Project Management |
 | [Tomcat](tomcat/README.md)  | [source](https://hub.docker.com/_/tomcat)  | Web Server and Servlet Container |
 | [Traefik](traefik/README.md)  | [source](https://traefik.io/traefik/)  | Proxy |
 | [uptime-kuma](uptime-kuma/README.md)  | [source](https://github.com/louislam/uptime-kuma)  | Monitoring Tool |
