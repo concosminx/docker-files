@@ -32,52 +32,48 @@
 | [homepage](homepage/docker-compose.yml)  | [source](https://github.com/gethomepage/homepage)  | Application Dashboard |
 | [homer](homer/docker-compose.yaml)  | [source](https://hub.docker.com/r/b4bz/homer)  | Application Dashboard |
 | [invoiceninja](invoiceninja/README.md)  | [source](https://invoiceninja.com/)  | Invoicing Software |
+| [jellyfin](jellyfin/README.md)  | [source](https://jellyfin.org/) | Software Media System |
+| [jenkins](jenkins/README.md)  | [source](https://www.jenkins.io/) | Automation Server / CI / CD|
+| [kafka](kafka/docker-compose-simple.yml)  | [source](https://kafka.apache.org/)  | Distributed Event Streaming Platform |
+| [keycloak](keycloak/README.md)  | [source](https://www.keycloak.org/)  | Identity and Access Management |
+| [mealie](mealie/docker-compose.yml)  | [source](https://nightly.mealie.io/)  | Recipe Management |
+| [minio](minio/docker-compose.yml)  | [source](https://min.io/)  | Object Storage |
+| [mongo-db](mongo/README.md)  | [source](https://www.mongodb.com/)  | Document Oriented Database |
+| [mongo-db-cluster](mongo-cluster/docker-compose.yml)  | [source](https://www.mongodb.com/)  | Document Oriented Database Cluster |
+| [musicbrainz](musicbrainz/docker-compose.yml)  | [source](https://musicbrainz.org/)  | Music Metadata |
+| [navidrome](navidrome/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/navidrome-music-streaming/)  | Music Streaming |
+| [netdata](netdata/README.md)  | [source](https://www.netdata.cloud/)  | Monitoring Platform |
+| [nginx-docs](nginx/README.md)  | [source](https://www.nginx.com/)  | Web Server |
+| [nginx-nodejs-redis](nginx-nodejs-redis/compose.yaml)  | [source](https://www.nginx.com/)  | Web Server - Redis Example |
+| [nginx-proxy-manager](nginx-proxy-manager/README.md)  | [source](https://www.nginx.com/)  | Nginx used as a proxy |
+| [oauth2-proxy](oauth2-proxy/docker-compose.yml)  | [source](https://github.com/oauth2-proxy/oauth2-proxy)  | Reverse proxy |
+| [odoo](odoo/README.md)  | [source](https://hub.docker.com/_/odoo)  | Open Source ERP and CRM | 
+| [Oracle](oracle-versions/README.md)  | [source](https://github.com/diemobiliar/minimized-oraclexe-image)  | Oracle XE | 
+| [paperless](paperless/docker-compose.yml)  | [source](https://docs.paperless-ngx.com/)  | Document Management System |
+| [passbolt](passbolt/README.md)  | [source](https://www.passbolt.com/) | Open Source Password Manager |
+| [planka](planka/README.md)  | [source]([#](https://docs.planka.cloud/docs/installation/docker/production_version)) | Open Source Project Tracking |
+| [Portainer](portainer/README.md)  | [source](https://docs.portainer.io/start/install/server/docker/linux)  | Container Management |
+| [PostgreSQL](postgresql/README.md)  | [source](https://hub.docker.com/_/postgres)  | Database |
+| [PostgreSQL with pgadmin](postgresql-pgadmin/README.md)  | [source](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html)  | Database & Tools |
+| [Quant-UX](quant-ux/README.md)  | [source](https://github.com/bmcgonag/quant-ux-docker/)  | Prototyping |
+| [Redmine](redmine/README.md)  | [source](https://hub.docker.com/_/redmine)  | Project Management | 
+| [rocket-chat](rocket-chat/README.md)  | [source](https://docs.rocket.chat/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose)  | Chat System |
+| [smtp4dev](smtp4dev/README.md)  | [source](https://github.com/rnwood/smtp4dev/blob/master/docker-compose.yml)  | Fake SMTP Email Server |
+| [SonarQUBE](sonar-qube/README.md)  | [source](https://www.sonarsource.com/products/sonarqube/)  | Static Code Analysis |
+| [spring-and-postgresql](spring-postgresql/README.md)  | ~~[source](#)~~  | SpringBoot and PostgreSQL Example |
+| [swag](swag/docker-compose.yaml)  | [source](https://docs.linuxserver.io/general/swag#swag)  | Web Server |
+| [taiga](taiga/README.md)  | [source]([#](https://github.com/docker-taiga/taiga)) | Project Management |
+| [Tomcat](tomcat/README.md)  | [source](https://hub.docker.com/_/tomcat)  | Web Server and Servlet Container |
+| [Traefik](traefik/README.md)  | [source](https://traefik.io/traefik/)  | Proxy |
+| [uptime-kuma](uptime-kuma/README.md)  | [source](https://github.com/louislam/uptime-kuma)  | Monitoring Tool |
+| [varnish](varnish/docker-compose.yml)  | [source](https://hub.docker.com/_/varnish)  | Cache |
+| [vault](vault/README.md)  | [source](https://ambar-thecloudgarage.medium.com/hashicorp-vault-with-docker-compose-0ea2ce1ca5ab) | Secure Storage |
+| [wekan](wekan/README.md)  | [source](https://github.com/wekan/wekan/wiki/Docker)  | Project Management |
+| [Wordpress](wordpress/README.md)  | [source](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose)  | CMS |
+| [WriteFreely](write-freely/README.md) | [source](https://writefreely.org/)  | Minimalist Blog |
+| [xwiki](xwiki/README.md) | [source](https://hub.docker.com/_/xwiki)  | WIKI |
+| [zabbix](zabbix/README.md) | [source](https://github.com/zabbix/zabbix-docker)  | Monitoring Platform |
+| [zitadel](zitadel/README.md) | [source](https://zitadel.com/docs/self-hosting/deploy/compose)  | Identity Management |
 
 
-# Container list (old)
-
-| Name  | Webpage |
-| ------------- | ------------- |
-| ~~[Jasper Server](jasper-server/README.md)~~  | ~~[source](https://hub.docker.com/r/bitnami/jasperreports/)~~  |
-| [jellyfin](jellyfin/README.md)  | [source](https://jellyfin.org/)  |
-| [jenkins](jenkins/README.md)  | [source](https://www.jenkins.io/)  |
-| [kafka](kafka/docker-compose-simple.yml)  | [source](https://kafka.apache.org/)  |
-| [keycloak](keycloak/README.md)  | [source](https://www.keycloak.org/)  |
-| [mealie](mealie/docker-compose.yml)  | [source](https://nightly.mealie.io/)  |
-| [minio](minio/docker-compose.yml)  | [source](https://min.io/)  |
-| [mongo-db](mongo/README.md)  | [source](https://www.mongodb.com/)  |
-| [mongo-db-cluster](mongo-cluster/docker-compose.yml)  | [source](https://www.mongodb.com/)  |
-| [musicbrainz](musicbrainz/docker-compose.yml)  | [source](https://musicbrainz.org/)  |
-| [navidrome](navidrome/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/navidrome-music-streaming/)  |
-| [netdata](netdata/README.md)  | [source](https://www.netdata.cloud/)  |
-| [nginx-docs](nginx/README.md)  | [source](https://www.nginx.com/)  |
-| [nginx-nodejs-redis](nginx-nodejs-redis/compose.yaml)  | [source](https://www.nginx.com/)  |
-| [nginx-proxy-manager](nginx-proxy-manager/README.md)  | [source](https://www.nginx.com/)  |
-| [oauth2-proxy](oauth2-proxy/docker-compose.yml)  | [source](https://github.com/oauth2-proxy/oauth2-proxy)  |
-| [odoo](odoo/README.md)  | [source](https://hub.docker.com/_/odoo)  |
-| [Oracle](oracle-versions/README.md)  | [source](https://github.com/diemobiliar/minimized-oraclexe-image)  |
-| [paperless](paperless/docker-compose.yml)  | [source](https://docs.paperless-ngx.com/)  |
-| [passbolt](passbolt/README.md)  | [source](https://www.passbolt.com/)  |
-| [planka](planka/README.md)  | ~~[source](#)~~  |
-| [Portainer](portainer/README.md)  | [source](https://docs.portainer.io/start/install/server/docker/linux)  |
-| [PostgreSQL](postgresql/README.md)  | [source](https://hub.docker.com/_/postgres)  |
-| [PostgreSQL with pgadmin](postgresql-pgadmin/README.md)  | [source](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html)  |
-| [Quant-UX](quant-ux/README.md)  | [source](https://github.com/bmcgonag/quant-ux-docker/)  |
-| [Redmine](redmine/README.md)  | [source](https://hub.docker.com/_/redmine)  |
-| [rocket-chat](rocket-chat/README.md)  | [source](https://docs.rocket.chat/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose)  |
-| [smtp4dev](smtp4dev/README.md)  | [source](https://github.com/rnwood/smtp4dev/blob/master/docker-compose.yml)  |
-| [SonarQUBE](sonar-qube/README.md)  | [source](https://www.sonarsource.com/products/sonarqube/)  |
-| [spring-and-postgresql](spring-postgresql/README.md)  | ~~[source](#)~~  |
-| [swag](swag/docker-compose.yaml)  | [source](https://docs.linuxserver.io/general/swag#swag)  |
-| [taiga](taiga/README.md)  | ~~[source](#)~~  |
-| [Tomcat](tomcat/README.md)  | ~~[source](#)~~  |
-| [Traefik](traefik/README.md)  | [source](https://traefik.io/traefik/)  |
-| [uptime-kuma](uptime-kuma/README.md)  | [source](https://github.com/louislam/uptime-kuma)  |
-| [varnish](varnish/docker-compose.yml)  | ~~[source](#)~~  |
-| [vault](vault/README.md)  | ~~[source](#)~~  |
-| [wekan](wekan/README.md)  | ~~[source](#)~~  |
-| [Wordpress](wordpress/README.md)  | ~~[source](#)~~  |
-| [WriteFreely](write-freely/README.md) | ~~[source](#)~~  |
-| [xwiki](xwiki/README.md) | ~~[source](#)~~  |
-| [zabbix](zabbix/README.md) | ~~[source](#)~~  |
-| [zitadel](zitadel/README.md) | ~~[source](#)~~  |
+ 
