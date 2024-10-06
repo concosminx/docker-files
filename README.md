@@ -21,6 +21,7 @@
 | [draw.io](draw-io/README.md)  | [source](https://hub.docker.com/r/jgraph/drawio)  | Flowchart Maker and Online Diagram Software |
 | [duplicati](duplicati/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/duplicati/)  | Backup Manager |
 | [elk](elk/README.md)  | [source](https://www.elastic.co/elastic-stack)  | ELK Stack - Elasticsearch, Kibana, Beats, and Logstash |
+| [firefox](firefox/README.md)  | [source](https://hub.docker.com/r/linuxserver/firefox)  | Run Firefox in Docker |
 | [gitea](gitea/README.md)  | [source](https://docs.gitea.io/en-us/install-with-docker/)  | Git Repository manager |
 | [glowroot](glowroot/README.md)  | [source](https://github.com/glowroot/glowroot/wiki)  | Open source Java APM |
 | [gotenberg](gotenberg/README.md)  | [source](https://gotenberg.dev/docs/configuration)  | Stateless API for PDF files |
