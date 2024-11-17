@@ -18,6 +18,7 @@
 | [cadvisor](cadvisor/docker-compose.yaml)  | [source](https://github.com/google/cadvisor)  | Resource usage and performance characteristics of running containers |
 | [checkmk](checkmk/README.md)  | [source](https://checkmk.com/) | IT monitoring platform |
 | [ctop](ctop/README.md)  | [source](https://github.com/bcicen/ctop)  | Top-like interface for container metrics |
+| [DocuSeal](docuseal/)  | [source](https://www.docuseal.com/on-premises)  | Document Signing |
 | [draw.io](draw-io/README.md)  | [source](https://hub.docker.com/r/jgraph/drawio)  | Flowchart Maker and Online Diagram Software |
 | [duplicati](duplicati/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/duplicati/)  | Backup Manager |
 | [elk](elk/README.md)  | [source](https://www.elastic.co/elastic-stack)  | ELK Stack - Elasticsearch, Kibana, Beats, and Logstash |
