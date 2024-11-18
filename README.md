@@ -26,6 +26,7 @@
 | [firefox](firefox/README.md)  | [source](https://hub.docker.com/r/linuxserver/firefox)  | Run Firefox in Docker |
 | [gitea](gitea/README.md)  | [source](https://docs.gitea.io/en-us/install-with-docker/)  | Git Repository manager |
 | [glowroot](glowroot/README.md)  | [source](https://github.com/glowroot/glowroot/wiki)  | Open source Java APM |
+| [gluetun](gluetun/docker-compose.yml)  | [source](https://github.com/qdm12/gluetun)  | Gluetun VPN client |
 | [gotenberg](gotenberg/README.md)  | [source](https://gotenberg.dev/docs/configuration)  | Stateless API for PDF files |
 | [groovy](groovy/README.md)  | [source](https://hub.docker.com/_/groovy/)  | Apache Groovy |
 | [haproxy-3-services](haproxy/3-services/docker-compose.yml)  | [source](https://www.haproxy.org/)  | HAProxy example with LB and 3 services (Echo Server) |
