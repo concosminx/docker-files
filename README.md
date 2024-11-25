@@ -39,6 +39,7 @@
 | [jellyfin](jellyfin/README.md)  | [source](https://jellyfin.org/) | Software Media System |
 | [jenkins](jenkins/README.md)  | [source](https://www.jenkins.io/) | Automation Server / CI / CD|
 | [kafka](kafka/docker-compose-simple.yml)  | [source](https://kafka.apache.org/)  | Distributed Event Streaming Platform |
+| [kavita](kavita/README.md)  | [source](https://wiki.kavitareader.com/)  | Digital Library  |
 | [keycloak](keycloak/README.md)  | [source](https://www.keycloak.org/)  | Identity and Access Management |
 | [mealie](mealie/docker-compose.yml)  | [source](https://nightly.mealie.io/)  | Recipe Management |
 | [minio](minio/docker-compose.yml)  | [source](https://min.io/)  | Object Storage |
