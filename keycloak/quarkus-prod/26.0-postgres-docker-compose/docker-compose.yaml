@@ -59,3 +59,4 @@ networks:
 #Note:
 #Generate a self signed certificate in ./data folder
 #openssl req -newkey rsa:2048 -nodes -keyout keycloak-server.key.pem -x509 -days 3650 -out keycloak-server.crt.pem
+#see https://github.com/keycloak/keycloak/issues/24252
