@@ -54,6 +54,7 @@
 | [nginx-proxy-manager](nginx-proxy-manager/README.md)  | [source](https://www.nginx.com/)  | Nginx used as a proxy |
 | [oauth2-proxy](oauth2-proxy/docker-compose.yml)  | [source](https://github.com/oauth2-proxy/oauth2-proxy)  | Reverse proxy |
 | [odoo](odoo/README.md)  | [source](https://hub.docker.com/_/odoo)  | Open Source ERP and CRM | 
+| [Ollama](ollama/README.md)  | [source](https://blog.networkchuck.com/posts/is-deepseek-safe-to-run-locally/)  | LLM | 
 | [Oracle](oracle-versions/README.md)  | [source](https://github.com/diemobiliar/minimized-oraclexe-image)  | Oracle XE | 
 | [paperless](paperless/docker-compose.yml)  | [source](https://docs.paperless-ngx.com/)  | Document Management System |
 | [passbolt](passbolt/README.md)  | [source](https://www.passbolt.com/) | Open Source Password Manager |
