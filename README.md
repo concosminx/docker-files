@@ -19,6 +19,7 @@
 | [cadvisor](cadvisor/docker-compose.yaml)  | [source](https://github.com/google/cadvisor)  | Resource usage and performance characteristics of running containers |
 | [checkmk](checkmk/README.md)  | [source](https://checkmk.com/) | IT monitoring platform |
 | [ctop](ctop/README.md)  | [source](https://github.com/bcicen/ctop)  | Top-like interface for container metrics |
+| [DIUN](diun/docker-compose.yml)  | [source](https://crazymax.dev/diun/)  | Docker Image Update Notifier |
 | [DocuSeal](docuseal/)  | [source](https://www.docuseal.com/on-premises)  | Document Signing |
 | [draw.io](draw-io/README.md)  | [source](https://hub.docker.com/r/jgraph/drawio)  | Flowchart Maker and Online Diagram Software |
 | [duplicati](duplicati/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/duplicati/)  | Backup Manager |
@@ -76,6 +77,7 @@
 | [uptime-kuma](uptime-kuma/README.md)  | [source](https://github.com/louislam/uptime-kuma)  | Monitoring Tool |
 | [varnish](varnish/docker-compose.yml)  | [source](https://hub.docker.com/_/varnish)  | Cache |
 | [vault](vault/README.md)  | [source](https://ambar-thecloudgarage.medium.com/hashicorp-vault-with-docker-compose-0ea2ce1ca5ab) | Secure Storage |
+| [vault](vaultwarden/docker-compose.yml)  | [source](https://github.com/dani-garcia/vaultwarden) | Password Manager |
 | [wekan](wekan/README.md)  | [source](https://github.com/wekan/wekan/wiki/Docker)  | Project Management |
 | [Wordpress](wordpress/README.md)  | [source](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose)  | CMS |
 | [WriteFreely](write-freely/README.md) | [source](https://writefreely.org/)  | Minimalist Blog |
