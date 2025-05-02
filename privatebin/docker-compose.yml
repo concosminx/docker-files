@@ -1,0 +1,15 @@
+services:
+  privatebin:
+    image: privatebin/nginx-fpm-alpine
+    restart: always
+    read_only: true
+    user: "1000:1000"  # Run the container with the UID:GID of your Docker user
+    ports:
+      - "8080:8080"
+    volumes:
+      - /home/ubuntu/docker/private-bin:/srv/data
+    networks:
+      - my-main-net
+networks:
+  my-main-net:
+    external: true
