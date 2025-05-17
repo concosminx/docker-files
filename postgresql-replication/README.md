@@ -13,3 +13,5 @@
 
 ### Or use attached example with docker compose
 - `docker-compose up -d postgres_primary postgres_replica`
+
+Inspired by the article: [How to Setup Single-Primary PostgreSQL Replication with Docker-compose](https://medium.com/@eremeykin/how-to-setup-single-primary-postgresql-replication-with-docker-compose-98c48f233bbf) by Peter Eremeykin.
