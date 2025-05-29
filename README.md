@@ -64,6 +64,7 @@
 | [Portainer](portainer/README.md)  | [source](https://docs.portainer.io/start/install/server/docker/linux)  | Container Management |
 | [PostgreSQL](postgresql/README.md)  | [source](https://hub.docker.com/_/postgres)  | Database |
 | [PostgreSQL with pgadmin](postgresql-pgadmin/README.md)  | [source](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html)  | Database & Tools |
+| [PrestaShop](prestashop/README.md)  | [source](https://wiki.opensourceisawesome.com/books/ecommerce/page/install-prestashop)  | E-commerce web application |
 | [PrivateBin](privatebin/docker-compose.yml)  | [source](https://privatebin.info/)  | Text storage site  |
 | [Quant-UX](quant-ux/README.md)  | [source](https://github.com/bmcgonag/quant-ux-docker/)  | Prototyping |
 | [Redmine](redmine/README.md)  | [source](https://hub.docker.com/_/redmine)  | Project Management | 
