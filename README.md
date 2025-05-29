@@ -47,6 +47,7 @@
 | [minio](minio/docker-compose.yml)  | [source](https://min.io/)  | Object Storage |
 | [mongo-db](mongo/README.md)  | [source](https://www.mongodb.com/)  | Document Oriented Database |
 | [mongo-db-cluster](mongo-cluster/docker-compose.yml)  | [source](https://www.mongodb.com/)  | Document Oriented Database Cluster |
+| [moodle](moodle/README.md)  | [source](https://moodle.org/)  | LMS |
 | [musicbrainz](musicbrainz/docker-compose.yml)  | [source](https://musicbrainz.org/)  | Music Metadata |
 | [navidrome](navidrome/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/navidrome-music-streaming/)  | Music Streaming |
 | [netdata](netdata/README.md)  | [source](https://www.netdata.cloud/)  | Monitoring Platform |
