@@ -22,6 +22,7 @@
 | [DIUN](diun/docker-compose.yml)  | [source](https://crazymax.dev/diun/)  | Docker Image Update Notifier |
 | [DocuSeal](docuseal/)  | [source](https://www.docuseal.com/on-premises)  | Document Signing |
 | [draw.io](draw-io/README.md)  | [source](https://hub.docker.com/r/jgraph/drawio)  | Flowchart Maker and Online Diagram Software |
+| [DumbAssets](dumb-assets/README.md)  | [source](https://github.com/DumbWareio/DumbAssets)  | Assets Manager |
 | [duplicati](duplicati/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/duplicati/)  | Backup Manager |
 | [easy-appointments](easy-appointments/README.md)  | [source](https://easyappointments.org/)  | Schedule |
 | [elk](elk/README.md)  | [source](https://www.elastic.co/elastic-stack)  | ELK Stack - Elasticsearch, Kibana, Beats, and Logstash |
