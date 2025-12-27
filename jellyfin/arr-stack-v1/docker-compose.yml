@@ -1,3 +1,4 @@
+#see https://thomaswildetech.com/blog/2025/10/30/jellyfin---setting-up-the-entire-stack/
 services:
   jellyfin:
     image: jellyfin/jellyfin
