@@ -1,0 +1,10 @@
+services:
+  nexterm:
+    environment:
+      ENCRYPTION_KEY: "<openssl rand -hex 32>"
+    ports:
+      - "6989:6989"
+    restart: unless-stopped
+    volumes:
+      - ./nexterm:/app/data
+    image: germannewsmaker/nexterm:latest

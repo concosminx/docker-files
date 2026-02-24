@@ -53,6 +53,7 @@
 | [musicbrainz](musicbrainz/docker-compose.yml)  | [source](https://musicbrainz.org/)  | Music Metadata |
 | [navidrome](navidrome/docker-compose.yml)  | [source](https://shownotes.opensourceisawesome.com/navidrome-music-streaming/)  | Music Streaming |
 | [netdata](netdata/README.md)  | [source](https://www.netdata.cloud/)  | Monitoring Platform |
+| [nexterm](nexterm/README.md)  | [source](https://hub.docker.com/r/germannewsmaker/nexterm)  | Remote access terminal |
 | [nginx-docs](nginx/README.md)  | [source](https://www.nginx.com/)  | Web Server |
 | [nginx-nodejs-redis](nginx-nodejs-redis/compose.yaml)  | [source](https://www.nginx.com/)  | Web Server - Redis Example |
 | [nginx-proxy-manager](nginx-proxy-manager/README.md)  | [source](https://www.nginx.com/)  | Nginx used as a proxy |
@@ -61,6 +62,7 @@
 | [Ollama](ollama/README.md)  | [source](https://blog.networkchuck.com/posts/is-deepseek-safe-to-run-locally/)  | LLM | 
 | [Oracle](oracle-versions/README.md)  | [source](https://github.com/diemobiliar/minimized-oraclexe-image)  | Oracle XE | 
 | [paperless](paperless/docker-compose.yml)  | [source](https://docs.paperless-ngx.com/)  | Document Management System |
+| [palmr](palmr/README.md)  | [source](https://hub.docker.com/r/kyantech/palmr)  | Document management and downloads |
 | [passbolt](passbolt/README.md)  | [source](https://www.passbolt.com/) | Open Source Password Manager |
 | [planka](planka/README.md)  | [source](https://docs.planka.cloud/docs/installation/docker/production_version) | Open Source Project Tracking |
 | [Portainer](portainer/README.md)  | [source](https://docs.portainer.io/start/install/server/docker/linux)  | Container Management |
