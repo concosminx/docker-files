@@ -1,0 +1,17 @@
+#version: "3"
+services:
+  gotify:
+    image: gotify/server
+    restart: unless-stopped
+    container_name: gotify
+    ports:
+      - 8989:80
+    environment:
+      - GOTIFY_DEFAULTUSER_PASS=${GOTIFY_DEFAULTUSER_PASS}
+    volumes:
+      - "./gotify_data:/app/data"
+
+networks:
+  default:
+    name: my-main-net
+    external: true
