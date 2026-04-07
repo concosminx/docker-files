@@ -1,0 +1,7 @@
+www.everyhub.org {
+  redirect https://somesite.org{uri}
+}
+
+somesite.org {
+  reverse_proxy ghost:2368
+}

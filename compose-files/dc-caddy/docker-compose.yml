@@ -1,0 +1,47 @@
+services:
+  ghost:
+    image: ghost:5-alpine  # Lightweight official Ghost image
+    container_name: ghost
+    restart: unless-stopped  # Auto-restart on crash or reboot
+    depends_on:
+      - mysql  # Ensure MySQL starts before Ghost
+    environment:
+      url: https://yourdomain.com  # CHANGE THIS to your domain *with https*!
+      database__client: mysql
+      database__connection__host: mysql
+      database__connection__user: ghost  # Matches MYSQL_USER below
+      database__connection__password: secret123  # Matches MYSQL_PASSWORD
+      database__connection__database: ghostdb  # Matches MYSQL_DATABASE
+    volumes:
+      - ghost_data:/var/lib/ghost/content  # Persist blog content
+    expose:
+      - 2368  # Internal port used by Caddy (not published to host)
+
+  mysql:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass  # Only used for root MySQL access (optional)
+      MYSQL_DATABASE: ghostdb
+      MYSQL_USER: ghost
+      MYSQL_PASSWORD: secret123
+    volumes:
+      - mysql_data:/var/lib/mysql  # Persist database
+
+  caddy:
+    image: caddy:alpine  # Lightweight Caddy with auto HTTPS
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"    # HTTP → used for automatic redirect to HTTPS and cert validation
+      - "443:443"  # HTTPS requires this port
+    volumes:
+      - caddy_data:/data    # TLS certs and internal state
+      - caddy_config:/config
+      - ./Caddyfile:/etc/caddy/Caddyfile  # Your custom config
+
+volumes:
+  ghost_data:
+  mysql_data:
+  caddy_data:
+  caddy_config:
