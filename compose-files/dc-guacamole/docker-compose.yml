@@ -1,0 +1,17 @@
+#version: "3"
+
+services:
+  guacamole:
+    image: jwetzell/guacamole:1.6.0
+    container_name: guacamole
+    volumes:
+      - ./postgres:/config
+    ports:
+      - 8080:8080
+#    environment:
+#      - EXTENSIONS=auth-sso-openid,auth-totp
+    restart: unless-stopped
+
+volumes:
+  postgres:
+   driver: local
