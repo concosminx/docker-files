@@ -1,7 +1,6 @@
----
 services:
   cadvisor:
-    image: gcr.io/cadvisor/cadvisor:v0.47.0     
+    image: ghcr.io/google/cadvisor:0.56.2
     container_name: cadvisor
     ports:
       - 8080:8080
