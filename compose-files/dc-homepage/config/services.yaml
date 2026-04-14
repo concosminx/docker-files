@@ -1,0 +1,47 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- My First Group:
+    - My First Service:
+        href: http://localhost/
+        description: Homepage is awesome
+
+- My Second Group:
+    - My Second Service:
+        href: http://localhost/
+        description: Homepage is the best
+
+- My Third Group:
+    - My Third Service:
+        href: http://localhost/
+        description: Homepage is 😎
+
+- Storage:
+    - TrueNAS:
+        icon: truenas.svg
+        href: "{{HOMEPAGE_VAR_TRUENAS_URL}}"
+        description: scale
+        widget:
+            type: truenas
+            url: "{{HOMEPAGE_VAR_TRUENAS_URL}}"
+            key: "{{HOMEPAGE_VAR_TRUENAS_API_KEY}}"
+    - MinIO:
+        icon: minio.svg
+        href: "{{HOMEPAGE_VAR_MINIO_URL}}"
+        description: object storage
+
+
+- Other:
+    - GitLab:
+        icon: gitlab.svg
+        href: https://gitlab.com
+        description: source code
+    - GitHub:
+        icon: github.svg
+        href: https://github.com
+        description: source code
+    - Shlink:
+        icon: https://shlink.io/images/shlink-logo-blue.svg
+        href: "{{HOMEPAGE_VAR_SHLINK_URL}}"
+        description: dashboard
