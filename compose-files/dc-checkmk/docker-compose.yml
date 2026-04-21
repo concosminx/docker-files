@@ -1,4 +1,3 @@
-version: '3.3'
 services:
   check-mk-raw:
     ports:
@@ -6,12 +5,14 @@ services:
     tmpfs: '/opt/omd/sites/cmk/tmp:uid=1000,gid=1000'
     volumes:
       - './monitoring:/omd/sites'
-      - '/etc/localtime:/etc/localtime:ro'
     container_name: checkmk
     restart: always
-    image: 'checkmk/check-mk-raw:2.2.0-latest'
+    image: 'checkmk/check-mk-raw:2.4.0-latest'
+    environment:
+      - CMK_PASSWORD=changeme
+      - TZ=Europe/Bucharest
 
-networks:
-  default:
-    name: my-main-net
-    external: true
+#networks:
+#  default:
+#    name: my-main-net
+#    external: true
