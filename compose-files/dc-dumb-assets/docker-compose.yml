@@ -1,6 +1,3 @@
-# Create a docker-compose.yml 
-
-```yaml
 services:
   dumbassets:
     container_name: dumbassets
@@ -18,10 +15,3 @@ services:
       DUMBASSETS_PIN: ${DUMBASSETS_PIN:-1234}
       ALLOWED_ORIGINS: ${DUMBASSETS_ALLOWED_ORIGINS:-*}
       APPRISE_URL: ${DUMBASSETS_APPRISE_URL:-}
-      # ...other env vars
-```
-
-# Run it
-```sh
-docker compose up -d
-```
