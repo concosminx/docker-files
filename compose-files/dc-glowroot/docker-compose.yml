@@ -1,0 +1,28 @@
+services:
+
+  glowroot:
+    image: glowroot/glowroot-central:0.14.6
+    ports:
+      - "8181:8181/tcp"
+      - "4000:4000/tcp"
+    environment:
+      CASSANDRA_CONTACT_POINTS: cassandra
+    networks:
+      - glowroot_net
+
+  cassandra:
+    image: cassandra:4.1.5
+    ports:
+      - "7000:7000/tcp"
+      - "9160:9160/tcp"
+      - "9042:9042/tcp"
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+    networks:
+      - glowroot_net
+
+networks:
+  glowroot_net:
+volumes:
+  cassandra_data:
+    driver: local
